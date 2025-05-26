@@ -7,13 +7,13 @@ const Landing: React.FC =  () => {
     <div>
       <h1 className=" text-xl font-extralight">Landing Page</h1>
       <Card />
-      <Button title="Small Button" styles={{ size: "small", shape: "rounded-full" }} />
+      <Button title="small" styles="px-3 py-1 text-sm rounded-sm" />
 
       <Card />
-      <Button title="Medium Button" styles={{ size: "medium" }} />
+      <Button title="medium" styles="px-4 py-2 text-base rounded-md" />
 
       <Card />
-      <Button title="Large Button" styles={{ size: "large", shape: "rounded-sm" }} />
+      <Button title="large" styles="px-6 py-3 text-lg rounded-full" />
     </div>
   )
 }
